@@ -1,4 +1,11 @@
 QT += widgets
 
 SOURCES += \
-    main.cpp
+    gui/sources/main.cpp
+
+HEADERS += \
+    gui/includes/mainframe.h
+
+INCLUDEPATH += \
+    gui/includes \
+    core/includes
